@@ -31,3 +31,8 @@
    - Vietnamese
    - Chinese
    - Russian
+
+5. ### Hobbies:
+   - Coding
+   - Meditating
+   - Reading
