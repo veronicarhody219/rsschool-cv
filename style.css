@@ -63,9 +63,12 @@ footer {
 .nav-content {
   display: flex;
   flex-direction: row;
-  list-style-type: none;
+
   justify-content: space-between;
   align-items: center;
+}
+.nav-content a li {
+  list-style-type: none;
 }
 .nav-content > *:hover {
   color: #61dafb;
