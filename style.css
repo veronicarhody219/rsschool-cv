@@ -60,17 +60,36 @@ footer {
   padding: 0;
   margin: 0;
 }
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-content > *:hover {
+  color: #61dafb;
+}
+.avatar {
+  max-width: 100px;
+
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+.code-example {
+  background-color: #424453;
+}
 @media screen and (min-width: 680px) {
-    .nav{
-        max-width: 1200px;
-    }
+  .nav {
+    max-width: 1200px;
+  }
   .nav--title {
     display: flex;
     margin: auto;
   }
-  .nav--title>li:first-child::after{
-      content: '  |';
-     
+  .nav--title > li:first-child::after {
+    content: "  |";
   }
   body {
     margin: auto;
