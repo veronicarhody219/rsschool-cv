@@ -66,11 +66,10 @@ footer {
 
   justify-content: space-between;
   align-items: center;
-}
-.nav-content a li {
   list-style-type: none;
 }
-.nav-content > *:hover {
+
+.nav-content a:hover {
   color: #61dafb;
 }
 .avatar {
